@@ -1,0 +1,225 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header Section Style */
+.flexible-banner h1 {
+  font-size: 64px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 36px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.Watch-button{
+    padding: 10px 20px;
+    background: #e02c6d;
+    text-decoration: none;
+    color: #ffffff;
+}
+.button-color {
+  padding: 10px 20px;
+  background: #e02c6d;
+}
+.login-button i {
+  margin-right: 12px;
+}
+nav ul {
+  display: flex;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+nav,
+.top-banner {
+  background: #352cb9;
+}
+/* Top Banner Style */
+.top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexible-banner i {
+  margin-left: 8px;
+}
+.player-image{
+  margin-left: 6%;
+}
+
+.player-image img {
+  width: 556px;
+}
+.top-banner {
+  padding: 15px 0 120px 0;
+}
+.flexible-banner h1 {
+  margin-bottom: 21px;
+  color: #ffffff;
+}
+  /* Player Cards Style */
+.container {
+  display: grid;
+  place-items: center;
+  margin-top: 70px;
+}
+.players {
+  width: 1050px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  
+}
+.player-box {
+  width: 330px;
+  border-radius: 7px;
+  box-shadow: rgba(68, 68, 75, 0.2) 0px 7px 29px 0px;
+}
+.player {
+  padding: 15px;
+}
+.player img {
+  width: 300px;
+  border-radius: 7px;
+  
+}
+.photo-detail{
+    display: block;
+    
+}
+.img-hover:hover {
+  transform: scale(1.1) ;
+  transition: transform ease-in 1s;
+  
+}
+
+.player h2 {
+  color: #18191f;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.player p {
+  color: #6c6c6c;
+  margin-bottom: 15px;
+}
+/* Down Banner Style */
+
+.Down-Banner {
+  margin-top: 165px;
+  padding-bottom: 140px;
+}
+.text-box h2 {
+  font-size: 48px;
+  
+}
+.text-box p {
+  color: #6c6c6c;
+  margin-bottom: 25px;
+  padding-right: 66px;
+}
+.Down-Banner img {
+  width: 567px;
+  margin-left: 5%;
+  padding-left: 10px;
+}
+.flexible-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box i {
+  margin-left: 8px;
+}
+/* Google Map Section Style */
+.map-container{
+    text-align: center;
+    padding: 40px;
+    padding-top: 30px;
+}
+.map-container h1{
+    font-size: 2.3em;
+    color: rgb(224, 8, 134);
+}
+/* Singup Section Style */
+.Singup-text{
+    text-align: center;
+    padding: 80px;
+}
+.Singup-text h2{
+    color: blue;
+}
+.text-content p{
+    padding: 15px;
+}
+
+/* Footer Section Style */
+.football-logo img{
+  height: 110px;
+  width: 480px;
+}
+.football-logo{
+display: flex;
+justify-content: center;
+padding-top: 80px;
+}
+.social-media-logo{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.social-media-logo h5{
+padding-bottom: 63px;
+}
+.name-text{
+    color: rgb(59, 105, 255);
+}
+/* Media Queries */
+
+/* Mobile Devices */
+@media only screen and (max-width : 480px) {
+
+
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
